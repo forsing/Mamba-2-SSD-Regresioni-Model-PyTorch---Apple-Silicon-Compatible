@@ -11,7 +11,7 @@ import time
 # =====================================================================
 # GLAVNI PARAMETRI ZA AUTOMATSKU PROMENU (PODEŠAVAJ SAMO OVDE)
 # =====================================================================
-CSV_FILE = "/Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_plus_1719.csv"   # Ime tvog fajla
+CSV_FILE = "/data/loto7_4682_k72_loto_plus_1719.csv"   # Ime tvog fajla
 WINDOW_SIZE = 20         # Prozor (za V1 drži niske vrednosti: 15-40)
 NUM_EPOCHS = 100         # Broj epoha (za V1 drži 100-250)
 # =====================================================================
@@ -146,15 +146,15 @@ if __name__ == "__main__":
 
 
 """
-Mamba-2 SSD PyTorch | Fajl: /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_plus_1719.csv | Prozor: 20 | Epoha: 100 | Uređaj: mps
+Mamba-2 SSD PyTorch | Fajl: data/loto7_4682_k72_loto_plus_1719.csv | Prozor: 20 | Epoha: 100 | Uređaj: mps
 Trening modela je pokrenut...
 Mamba-2 PyTorch Epoha [50/100] | SSD Gubitak: 63.4632
 Mamba-2 PyTorch Epoha [100/100] | SSD Gubitak: 29.5723
 Trening završen za: 15.04 sekundi.
 
 ==================================================
-REZULTAT ZA FAJL /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_plus_1719.csv (Sledeći red - PyTorch V1):
-[ 4  9 13 18 22 26 30]
+REZULTAT ZA FAJL data/loto7_4682_k72_loto_plus_1719.csv (Sledeći red - PyTorch V1):
+[ 4  x 13 y 22 z 30]
 ==================================================
 """
 
